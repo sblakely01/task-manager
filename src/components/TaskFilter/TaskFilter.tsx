@@ -7,7 +7,7 @@ export function TaskFilter({ onFilterChange }: TaskFilterProps) {
     };
 
     const handlePriorityChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-        onFilterChange({ priority: e.targget.value as any });
+        onFilterChange({ priority: e.target.value as any });
     };
 
     return (
